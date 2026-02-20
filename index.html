@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Comment Scope</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a73e8;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #444;
+            margin-top: 30px;
+        }
+        p, li {
+            margin-bottom: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #777;
+            text-align: center;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for Comment Scope</h1>
+        <p><strong>Effective Date:</strong> February 20, 2024</p>
+        <p><strong>Last Updated:</strong> February 20, 2024</p>
+
+        <p>Comment Scope ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how our Chrome Extension, <strong>Comment Scope: YouTube AI Analyzer & Scraper</strong>, handles data.</p>
+
+        <h2>1. Overview</h2>
+        <p>Comment Scope is an audience intelligence tool designed to analyze YouTube comments, transcripts, and video descriptions using AI. The extension operates on a "User-Owned Data" model, meaning we do not host servers to store your personal data or API keys.</p>
+
+        <h2>2. Information Collection and Use</h2>
+        <p>We do not collect any personally identifiable information (PII).</p>
+        <ul>
+            <li><strong>API Keys:</strong> To function, the extension requires API keys for YouTube (Google Cloud), Groq, or Gemini. These keys are provided by you and are stored <strong>locally</strong> in your browser's <code>chrome.storage.local</code>. We never see, store, or transmit these keys to our own servers.</li>
+            <li><strong>Analysis History:</strong> Your analysis history (video titles and dates) is stored locally on your device to provide a seamless user experience.</li>
+            <li><strong>Feedback Data:</strong> If you use the "Feedback" feature, the information you provide (message, Video ID, and Video Title) is sent to us via Formspree so we can improve the extension. This is the only time data is transmitted to us, and it is done only with your explicit action.</li>
+        </ul>
+
+        <h2>3. Use of Permissions</h2>
+        <p>To provide its core features, Comment Scope requires the following permissions:</p>
+        <ul>
+            <li><code>activeTab</code>: Used to detect the URL of the YouTube video you are currently watching so the extension can fetch the correct comments and transcript.</li>
+            <li><code>storage</code>: Used to save your settings, API keys, and local analysis history on your computer.</li>
+            <li><code>tabs</code>: Used to communicate between the extension popup and the YouTube page to facilitate comment scraping and transcript extraction.</li>
+            <li><strong>Host Permissions:</strong> Required to allow your browser to communicate directly with the AI and YouTube services (googleapis.com, groq.com, etc.) using your provided API keys.</li>
+        </ul>
+
+        <h2>4. Third-Party Services</h2>
+        <p>Our extension communicates directly with the following third-party APIs:</p>
+        <ul>
+            <li>Google YouTube Data API</li>
+            <li>Google Gemini API / Groq API</li>
+        </ul>
+        <p>These services have their own privacy policies. Data sent to these APIs is limited to the text of comments, transcripts, and descriptions required for analysis.</p>
+
+        <h2>5. Data Security</h2>
+        <p>Because all data (including API keys) is stored locally in your browser's secure storage, your data is as secure as your computer and browser. We do not have access to your data and cannot see your analysis results.</p>
+
+        <h2>6. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be reflected by the "Last Updated" date at the top of this page.</p>
+
+        <h2>7. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, you can contact us at: <strong>143syedabukhari@gmail.com</strong>.</p>
+    </div>
+    <div class="footer">
+        &copy; 2024 Comment Scope. All rights reserved.
+    </div>
+</body>
+</html>
